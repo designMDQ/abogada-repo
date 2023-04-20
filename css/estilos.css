@@ -44,6 +44,7 @@ header{
 
 .boton-tel .btn:hover{
     background: none;
+    border: 2px solid #d7a838;
 }
  .navbar .navbar-toggler{
     font-size: 1.2rem;
