@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     min-height: 40rem;
     background-image: linear-gradient(rgba(5, 7, 12, .5), rgba(5, 7, 12, .5)), url(../img/header-img.jpg);
     background-position: center;
@@ -25,7 +25,7 @@ header{
 
 .navbar-nav .nav-link{
     font-size: 1.6rem;
-    color: antiquewhite;
+    color: #faebd7;
 }
 
 .navbar-brand:hover{
@@ -38,7 +38,7 @@ header{
 
 .boton-tel .btn{
     font-size: 1.3rem;
-    background-color: #bdb76b;
+    background-color: #d7a838;
     border: #bdb76b;
 }
 
@@ -50,7 +50,20 @@ header{
     font-weight: 700;
  }
 .menu-burguer{
-    color: #bdb76b;
+    color: #d7a838;
+}
+
+.encabezado{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #faebd7;  
+}
+
+.encabezado h1{
+    font-size: 4rem;
 }
 
 
