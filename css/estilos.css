@@ -6,3 +6,45 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+header{
+    width: 100%;
+    height: 100vh;
+    min-height: 40rem;
+    background-image: linear-gradient(rgba(5, 7, 12, .5), rgba(5, 7, 12, .5)), url(../img/header-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+/*---NAVBAR---*/
+.navbar-brand{
+    font-size: 1.6rem;
+    color: antiquewhite;
+}
+
+.navbar-nav .nav-link{
+    font-size: 1.6rem;
+    color: antiquewhite;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.boton-tel .btn{
+    font-size: 1.3rem;
+    background-color: #bdb76b;
+    border: #bdb76b;
+}
+
+.boton-tel .btn:hover{
+    background: none;
+}
+
+
+
