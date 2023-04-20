@@ -45,6 +45,20 @@ header{
 .boton-tel .btn:hover{
     background: none;
 }
+ .navbar .navbar-toggler{
+    font-size: 1.2rem;
+    font-weight: 700;
+ }
+.menu-burguer{
+    color: #bdb76b;
+}
 
 
+
+/*---MEDIA QUERIES---*/
+@media(max-width: 990px){
+    .navbar .navbar-brand{
+        font-size: 1.5rem;
+    }
+}
 
