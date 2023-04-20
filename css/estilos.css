@@ -74,5 +74,9 @@ header{
     .navbar .navbar-brand{
         font-size: 1.5rem;
     }
+    .encabezado h1{
+        font-size: 2.5rem;
+    }
 }
+
 
