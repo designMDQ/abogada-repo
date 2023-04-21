@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Jurídico</title>
 
-    <!--AOS CDN-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--ÍCONOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!--AOS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -60,7 +60,7 @@
        <!--NOSOTROS-->
       <section class="container nosotros" id="nosotros">
         <div class="row">
-          <div class="col-md-6 mt-3">
+          <div data-aos="fade-right" class="col-md-6 mt-3">
             <img src="img/linea.png" alt="línea separadora" class=" my-5 img-fluid" width="90">
             <h2>Nosotros</h2>
             <h5 class="mt-4 mb-5">Estudio jurídico Dra. Claudia Rodriguez</h5>
@@ -100,7 +100,7 @@
           <!--/Col centro-->
 
           <!--Col derecha-->
-          <div class="col-md-5 mt-5 pt-5 ">
+          <div data-aos="zoom-in" class="col-md-5 mt-5 pt-5 ">
             <img src="img/Nosotros.jpg" alt="imagen sección nosotros"  class="img-fluid mt-5 pt-5 ms-4" width="80%">
           </div>
           <!--/Col derecha-->
@@ -109,7 +109,13 @@
       <!--/NOSOTROS-->
     
     <!--SCRIPT AOS-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing:'ease-out-back',
+        duration: 3000
+      });
+    </script>
     <!--JS BOTSTRAP-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
