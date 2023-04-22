@@ -92,11 +92,13 @@ header{
 }
 
 .linea-principal{
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
-
-
+/*---SERVICIOS---*/
+.h3-pandemia{
+    font-weight: 600;
+}
 
 
 /*---MEDIA QUERIES---*/
