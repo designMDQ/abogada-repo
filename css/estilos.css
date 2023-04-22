@@ -84,8 +84,18 @@ header{
 
 /*---PRINCIPAL---*/
 .principal{
-    height: 40rem;
+    height: 33rem;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, .6)), url(../img/principal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.linea-principal{
+    margin-top: 7rem;
+}
+
+
 
 
 
