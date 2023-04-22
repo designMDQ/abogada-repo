@@ -122,7 +122,10 @@ header{
         font-size: 1rem;
     }
 
-   
+   .texto-servicios{
+    font-size: 1.4rem;
+    margin: 0 2rem;
+   }
 }
 
 
