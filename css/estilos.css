@@ -72,13 +72,19 @@ header{
     font-size: 4rem;
 }
 
+/*---NOSOTROS---*/
+
 .parrafo-negrita{
     font-weight: 700;
 }
 
 .nosotros h6{
-    line-height: 1;
-   
+    line-height: 1;  
+}
+
+/*---PRINCIPAL---*/
+.principal{
+    height: 40rem;
 }
 
 
