@@ -138,6 +138,14 @@ header{
    .servicios h5{
     font-size: .9rem;
    }
+
+   .form-group{
+    margin: 0 1rem 0 0;
+   }
+
+   .form-group span i{
+    padding-right: .4rem;
+   }
 }
 
 
