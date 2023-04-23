@@ -101,6 +101,38 @@ header{
     font-weight: 600;
 }
 
+/*---FOOTER---*/
+.pie{
+    width: 100%;
+    height: 31rem;
+    background: #20201f;
+}
+
+.pie .img-footer{
+    margin: 5rem 0 2rem 0;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem; 
+    
+   
+}
+
+.nav-enlace{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    padding-left: 2rem; 
+}
+
+.nav-enlace:hover{
+   color: #bdb76b;
+
+}
+
 
 /*---MEDIA QUERIES---*/
 @media(max-width: 990px){
@@ -145,6 +177,10 @@ header{
 
    .form-group span i{
     padding-right: .4rem;
+   }
+
+   .nav-footer{
+    margin-top: 3rem;
    }
 }
 
