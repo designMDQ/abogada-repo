@@ -122,9 +122,21 @@ header{
         font-size: 1rem;
     }
 
+    .servicios .linea-principal{
+        margin-top: 2rem;
+    }
+
    .texto-servicios{
     font-size: 1.4rem;
     margin: 0 2rem;
+   }
+
+   .servicios.h3-pandemia{
+    font-size: 1.2  rem;
+   }
+
+   .servicios h5{
+    font-size: .9rem;
    }
 }
 
